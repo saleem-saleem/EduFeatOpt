@@ -49,12 +49,12 @@ Place your dataset in the /data folder for convenience.</p>
 
 
 <p>Step 3: Execute the Code
-Run Feature Selection (MATRICLUST-FS):
-python feature_selection.py
-Run Sample Selection (HYCADEX):
-python sample_selection.py
-Train and Evaluate Classifiers (COGNIFUZZ / OPTIFUZZTREE):
-python train_classifiers.py
+Run Feature Selection smartfs:
+python smartFS.py
+Run SmartHIVE:
+python smartHIVE.py
+Train and Evaluate Classifiers :
+python evaluate.py
 Output:
 Iteration details during feature selection.
 Selected features for each iteration.
@@ -63,7 +63,7 @@ Optimal feature subset indices for downstream analysis.</p>
 
 <p>Step 4: Modify Parameters (Optional)
 Adjust Parameters:
-Open the relevant Python script (feature_selection.py, sample_selection.py, or train_classifiers.py) in a text editor.
+Open the relevant Python script  in a text editor.
 
 Modify parameters to fit your dataset, for example:
 max_iterations = 10        # Number of iterations
