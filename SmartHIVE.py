@@ -2,7 +2,6 @@
 SmartHive: ACO-GA Hybrid Feature Selection with SVM
 ---------------------------------------------------
 Author: Saleem Malik
-
 Description:
 SmartHive is a hybrid wrapper-based optimization algorithm that
 integrates Ant Colony Optimization (ACO) for global exploration
